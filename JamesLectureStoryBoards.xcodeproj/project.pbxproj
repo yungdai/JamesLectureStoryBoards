@@ -13,6 +13,20 @@
 		1A64262F1B20962F007C1F45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A64262E1B20962F007C1F45 /* Images.xcassets */; };
 		1A6426321B20962F007C1F45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426301B20962F007C1F45 /* LaunchScreen.xib */; };
 		1A64263E1B20962F007C1F45 /* JamesLectureStoryBoardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64263D1B20962F007C1F45 /* JamesLectureStoryBoardsTests.swift */; };
+		1A6426591B20A9AD007C1F45 /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A64264E1B20A9AD007C1F45 /* JosefinSans-Bold.ttf */; };
+		1A64265A1B20A9AD007C1F45 /* JosefinSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A64264F1B20A9AD007C1F45 /* JosefinSans-BoldItalic.ttf */; };
+		1A64265B1B20A9AD007C1F45 /* JosefinSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426501B20A9AD007C1F45 /* JosefinSans-Italic.ttf */; };
+		1A64265C1B20A9AD007C1F45 /* JosefinSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426511B20A9AD007C1F45 /* JosefinSans-Light.ttf */; };
+		1A64265D1B20A9AD007C1F45 /* JosefinSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426521B20A9AD007C1F45 /* JosefinSans-LightItalic.ttf */; };
+		1A64265E1B20A9AD007C1F45 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426531B20A9AD007C1F45 /* JosefinSans-Regular.ttf */; };
+		1A64265F1B20A9AD007C1F45 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426541B20A9AD007C1F45 /* JosefinSans-SemiBold.ttf */; };
+		1A6426601B20A9AD007C1F45 /* JosefinSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426551B20A9AD007C1F45 /* JosefinSans-SemiBoldItalic.ttf */; };
+		1A6426611B20A9AD007C1F45 /* JosefinSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426561B20A9AD007C1F45 /* JosefinSans-Thin.ttf */; };
+		1A6426621B20A9AD007C1F45 /* JosefinSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426571B20A9AD007C1F45 /* JosefinSans-ThinItalic.ttf */; };
+		1A6426631B20A9AD007C1F45 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1A6426581B20A9AD007C1F45 /* OFL.txt */; };
+		1A6426671B20AABF007C1F45 /* HipsterFontLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6426661B20AABF007C1F45 /* HipsterFontLabel.swift */; };
+		1ABF165C1B21ED8B003AA610 /* SnazyStandardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF165B1B21ED8B003AA610 /* SnazyStandardButton.swift */; };
+		1ABF165E1B21F7E9003AA610 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF165D1B21F7E9003AA610 /* CardStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,20 @@
 		1A6426371B20962F007C1F45 /* JamesLectureStoryBoardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamesLectureStoryBoardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A64263C1B20962F007C1F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A64263D1B20962F007C1F45 /* JamesLectureStoryBoardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesLectureStoryBoardsTests.swift; sourceTree = "<group>"; };
+		1A64264E1B20A9AD007C1F45 /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		1A64264F1B20A9AD007C1F45 /* JosefinSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1A6426501B20A9AD007C1F45 /* JosefinSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic.ttf"; sourceTree = "<group>"; };
+		1A6426511B20A9AD007C1F45 /* JosefinSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Light.ttf"; sourceTree = "<group>"; };
+		1A6426521B20A9AD007C1F45 /* JosefinSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		1A6426531B20A9AD007C1F45 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		1A6426541B20A9AD007C1F45 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		1A6426551B20A9AD007C1F45 /* JosefinSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		1A6426561B20A9AD007C1F45 /* JosefinSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Thin.ttf"; sourceTree = "<group>"; };
+		1A6426571B20A9AD007C1F45 /* JosefinSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1A6426581B20A9AD007C1F45 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		1A6426661B20AABF007C1F45 /* HipsterFontLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HipsterFontLabel.swift; sourceTree = "<group>"; };
+		1ABF165B1B21ED8B003AA610 /* SnazyStandardButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnazyStandardButton.swift; sourceTree = "<group>"; };
+		1ABF165D1B21F7E9003AA610 /* CardStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +105,8 @@
 		1A6426241B20962F007C1F45 /* JamesLectureStoryBoards */ = {
 			isa = PBXGroup;
 			children = (
+				1A6426641B20A9C8007C1F45 /* Fonts */,
+				1A6426651B20AA62007C1F45 /* CustomUIElements */,
 				1A6426271B20962F007C1F45 /* AppDelegate.swift */,
 				1A6426291B20962F007C1F45 /* ViewController.swift */,
 				1A64262B1B20962F007C1F45 /* Main.storyboard */,
@@ -110,6 +140,45 @@
 				1A64263C1B20962F007C1F45 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A64264D1B20A9AD007C1F45 /* Josefin Sans */ = {
+			isa = PBXGroup;
+			children = (
+				1A64264E1B20A9AD007C1F45 /* JosefinSans-Bold.ttf */,
+				1A64264F1B20A9AD007C1F45 /* JosefinSans-BoldItalic.ttf */,
+				1A6426501B20A9AD007C1F45 /* JosefinSans-Italic.ttf */,
+				1A6426511B20A9AD007C1F45 /* JosefinSans-Light.ttf */,
+				1A6426521B20A9AD007C1F45 /* JosefinSans-LightItalic.ttf */,
+				1A6426531B20A9AD007C1F45 /* JosefinSans-Regular.ttf */,
+				1A6426541B20A9AD007C1F45 /* JosefinSans-SemiBold.ttf */,
+				1A6426551B20A9AD007C1F45 /* JosefinSans-SemiBoldItalic.ttf */,
+				1A6426561B20A9AD007C1F45 /* JosefinSans-Thin.ttf */,
+				1A6426571B20A9AD007C1F45 /* JosefinSans-ThinItalic.ttf */,
+				1A6426581B20A9AD007C1F45 /* OFL.txt */,
+			);
+			name = "Josefin Sans";
+			path = josefin_sans;
+			sourceTree = "<group>";
+		};
+		1A6426641B20A9C8007C1F45 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1A64264D1B20A9AD007C1F45 /* Josefin Sans */,
+			);
+			name = Fonts;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1A6426651B20AA62007C1F45 /* CustomUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				1A6426661B20AABF007C1F45 /* HipsterFontLabel.swift */,
+				1ABF165B1B21ED8B003AA610 /* SnazyStandardButton.swift */,
+				1ABF165D1B21F7E9003AA610 /* CardStackView.swift */,
+			);
+			name = CustomUIElements;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +261,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6426631B20A9AD007C1F45 /* OFL.txt in Resources */,
 				1A64262D1B20962F007C1F45 /* Main.storyboard in Resources */,
+				1A6426591B20A9AD007C1F45 /* JosefinSans-Bold.ttf in Resources */,
+				1A64265B1B20A9AD007C1F45 /* JosefinSans-Italic.ttf in Resources */,
+				1A6426601B20A9AD007C1F45 /* JosefinSans-SemiBoldItalic.ttf in Resources */,
+				1A64265F1B20A9AD007C1F45 /* JosefinSans-SemiBold.ttf in Resources */,
+				1A64265A1B20A9AD007C1F45 /* JosefinSans-BoldItalic.ttf in Resources */,
 				1A6426321B20962F007C1F45 /* LaunchScreen.xib in Resources */,
+				1A6426621B20A9AD007C1F45 /* JosefinSans-ThinItalic.ttf in Resources */,
+				1A64265D1B20A9AD007C1F45 /* JosefinSans-LightItalic.ttf in Resources */,
 				1A64262F1B20962F007C1F45 /* Images.xcassets in Resources */,
+				1A64265E1B20A9AD007C1F45 /* JosefinSans-Regular.ttf in Resources */,
+				1A64265C1B20A9AD007C1F45 /* JosefinSans-Light.ttf in Resources */,
+				1A6426611B20A9AD007C1F45 /* JosefinSans-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABF165E1B21F7E9003AA610 /* CardStackView.swift in Sources */,
 				1A64262A1B20962F007C1F45 /* ViewController.swift in Sources */,
 				1A6426281B20962F007C1F45 /* AppDelegate.swift in Sources */,
+				1ABF165C1B21ED8B003AA610 /* SnazyStandardButton.swift in Sources */,
+				1A6426671B20AABF007C1F45 /* HipsterFontLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +494,7 @@
 				1A6426431B20962F007C1F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A6426441B20962F007C1F45 /* Build configuration list for PBXNativeTarget "JamesLectureStoryBoardsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +503,7 @@
 				1A6426461B20962F007C1F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
