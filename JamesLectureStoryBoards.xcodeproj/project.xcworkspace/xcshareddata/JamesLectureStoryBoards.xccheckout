@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F552D1AD-5891-4AA1-9CE3-E7048D80A5F6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0140D0B481F0409D29644823D2EC88B1B82AE98A</key>
+		<string>https://github.com/yungdai/JamesLectureStoryBoards.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JamesLectureStoryBoards.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0140D0B481F0409D29644823D2EC88B1B82AE98A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yungdai/JamesLectureStoryBoards.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0140D0B481F0409D29644823D2EC88B1B82AE98A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0140D0B481F0409D29644823D2EC88B1B82AE98A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JamesLectureStoryBoards</string>
+		</dict>
+	</array>
+</dict>
+</plist>
