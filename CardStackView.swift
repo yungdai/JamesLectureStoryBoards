@@ -27,7 +27,9 @@ class CardStackView: UIView {
         cardTwo = UIView(frame: bounds)
         cardThree = UIView(frame: bounds)
         contentView = UIView(frame: bounds)
-        // test
+        
+
+        
 
     }
     
