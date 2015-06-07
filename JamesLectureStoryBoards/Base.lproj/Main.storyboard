@@ -33,19 +33,20 @@
                                     <action selector="myButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qmb-9b-cxe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copy Wrong" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgE-gd-Ha0" customClass="HipsterFontLabel" customModule="JamesLectureStoryBoards" customModuleProvider="target">
-                                <rect key="frame" x="252" y="559" width="96" height="21"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ct2-tt-rZ4" userLabel="Card Stack View" customClass="CardStackView" customModule="JamesLectureStoryBoards">
+                                <rect key="frame" x="49" y="137" width="504" height="365"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="365" id="0QT-We-Yvq"/>
+                                    <constraint firstAttribute="width" constant="504" id="pic-FR-gkH"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgE-gd-Ha0" customClass="HipsterFontLabel" customModule="JamesLectureStoryBoards" customModuleProvider="target">
+                                <rect key="frame" x="253" y="559" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ct2-tt-rZ4" userLabel="Card Stack View" customClass="CardStackView" customModule="JamesLectureStoryBoards">
-                                <rect key="frame" x="48" y="137" width="504" height="365"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="504" id="pic-FR-gkH"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.75981992215185701" green="1" blue="0.88586826544825603" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
