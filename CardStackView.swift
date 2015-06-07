@@ -57,6 +57,7 @@ class CardStackView: UIView {
         view.layer.borderWidth = 1.0
         view.layer.borderColor = UIColor.blackColor().CGColor
         view.layer.cornerRadius = 5
+        view.layer.allowsEdgeAntialiasing = true
         transform = CGAffineTransformMakeRotation(initialRoationAngle)
     }
     
