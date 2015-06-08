@@ -13,53 +13,31 @@ class CardStackView: UIView {
     var cardOne: UIView?
     var cardTwo: UIView?
     var cardThree: UIView?
-    var contentView: UIView?
-    
-    let initialRoationAngle = CGFloat(M_PI/180)
+    var contentView:UIView?
     
     override func awakeFromNib() {
         createMySubViews()
-        styleAndAddMySubViews()
+        styleMySubViews()
     }
     
     func createMySubViews() {
         cardOne = UIView(frame: bounds)
         cardTwo = UIView(frame: bounds)
         cardThree = UIView(frame: bounds)
-        contentView = UIView(frame: bounds)
-        
-
-        
-
     }
     
-    func styleAndAddMySubViews() {
-        if let cOne = cardOne, cTwo = cardTwo, cThree = cardThree, content = contentView {
-            styleMyView(cOne)
-            cOne.transform = CGAffineTransformMakeRotation(initialRoationAngle)
-            addSubview(cOne)
-            
-            styleMyView(cTwo)
-            cTwo.transform = CGAffineTransformMakeRotation(-initialRoationAngle)
-            addSubview(cTwo)
-            
-            styleMyView(cThree)
-            cThree.transform = CGAffineTransformMakeRotation(2 * initialRoationAngle)
-            addSubview(cThree)
-            
-            styleMyView(content)
-            addSubview(content)
-        }
+    func styleMySubViews {
+        styleMyView(cardOne!)
+        styleMyView(cardTwo!)
+        styleMyView(cardThree!)
     }
     
     func styleMyView(view: UIView) {
         view.backgroundColor = UIColor.lightGrayColor()
         view.layer.borderWidth = 1.0
-        view.layer.borderColor = UIColor.blackColor().CGColor
-        view.layer.cornerRadius = 5
-        view.layer.allowsEdgeAntialiasing = true 
-        transform = CGAffineTransformMakeRotation(initialRoationAngle)
+        view.layer.cornerRadius = bounds.size.height / 2
     }
+    
     
 
 }
